@@ -20,7 +20,7 @@ app.use(cookieParser());
 app.use(express.static('public'));
 
 app.get('/', (req, res)=>{
-    res.render('index')
+      res.render('../view/index');
 })
 
 app.get('/login', (req,res)=>{
